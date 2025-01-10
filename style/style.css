@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* font-family: "Work Sans", serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background: linear-gradient(
+            0deg,
+            rgb(9, 9, 9) 2.884%,
+            rgba(16, 16, 16, 0) 101.034%
+        ),
+        url("/assets/hero-bg.png") no-repeat center center/cover;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+}
+
+#hero .hero-container {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    /* background: lightblue; */
+}
+
+.hero-container .subtitle {
+    opacity: 0.8;
+    font-family: work sans;
+}
+.hero-container .title {
+    color: white;
+}
+#hero .hero-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+.hero-container .description {
+    opacity: 0.7;
+}
+.hero-container button,
+#card-box button,
+.design-container button {
+    padding: 15px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ! design card */
+
+#card-box {
+    /* background-color: lightblue; */
+    width: 950px;
+    margin: 100px auto;
+    text-align: center;
+}
+#card-box .container p.subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box button {
+    margin-top: 40px;
+}
+.container .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+    /* background: tomato; */
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    gap: 20px;
+}
+
+.card .card-img {
+    width: 250px;
+}
+.card-img img {
+    width: 100%;
+}
+.card .card-span,
+.design-span {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* background-color: aqua; */
+    padding: 4px 20px;
+    border-radius: 8px;
+
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card h1,
+.design-container .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card .card-subtitle,
+.design-container .design-subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* todo: About section */
+#about {
+    width: 950px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    /* gap: 30px; */
+    /* background: lightblue; */
+}
+
+.left-about img {
+    max-width: 100%;
+    height: auto;
+}
+.right-about {
+    margin: 3rem 0;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* height: 300px; */
+    width: 100%;
+}
+#about > article.right-about > h1 {
+    color: rgb(16, 16, 16);
+    max-width: 80%;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.right-about .subtitle {
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.right-about .h3Ti {
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.right-about h3 {
+    opacity: 0.7;
+
+    margin: 5px 0px;
+}
+
+.about-links a {
+    text-decoration: none;
+    color: rgb(82, 195, 3);
+    text-transform: capitalize;
+}
+.about-links a:not(:last-child) {
+    margin-right: 30px; /* Adjust the margin value as needed */
+}
+
+/* Todo: Design Section */
+#design {
+    max-width: 400px;
+
+    margin: 150px auto;
+}
+
+.design-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.design-container button {
+    margin-top: 18px;
+}
