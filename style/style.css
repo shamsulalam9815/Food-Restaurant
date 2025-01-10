@@ -14,7 +14,7 @@
             rgb(9, 9, 9) 2.884%,
             rgba(16, 16, 16, 0) 101.034%
         ),
-        url("/assets/hero-bg.png") no-repeat center center/cover;
+        url("/assets/hero.png") no-repeat center center/cover;
 
     height: 100vh;
     display: flex;
